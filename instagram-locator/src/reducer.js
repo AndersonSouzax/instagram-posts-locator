@@ -40,10 +40,6 @@ const mainReducer = ( state = initialUser, action ) => {
 
 			return state;
 
-		case 'GET_FOLLOWERS':
-
-			return state.followers;
-
 		case 'SECOND_PAGE_COORD_SET':
 
 			return state;
@@ -58,6 +54,6 @@ const mainReducer = ( state = initialUser, action ) => {
 
 	}
 
-};
+}
 
 export default mainReducer;

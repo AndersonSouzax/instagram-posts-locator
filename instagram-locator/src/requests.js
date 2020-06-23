@@ -1,17 +1,24 @@
 class Request{
 
-
 	constructor(){
 		this.url = '';
 	}
 
-	apiGetRequest(path, auth = null){
+	getLocations(token, coords){
 
 	}
 
-	apiPostRequest(path, auth = null, obj = null){
+	getLocationsData(token, locations){
 
 	}
+
+	getFollowedBy(token){
+
+	}
+
+	getMedia(token, coords){
+
+	} 
 
 }
 
